@@ -1,0 +1,74 @@
+.name {
+	font-family: cursive;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	color: white;
+}
+
+div.input {
+	margin: 1%;
+	color: white;
+}
+
+.input form{
+	color: black;
+	display: inline;
+}
+
+.input input{
+	color: black;
+}
+
+table 
+{
+	width:30%;
+	color: white;
+}
+
+table,th{ 
+	border-collapse:collapse;
+}
+
+th
+{
+	height:50px;
+}
+
+body {
+	background-color: #000;
+	background-image: url("#"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("#"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("#"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("#"), linear-gradient(45deg, #666 15%, #5f4d93 85%);
+}
+
+#footer {
+	text-align: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 5em 5em 3em 5em ;
+	width: calc(100% + 2em);
+	margin: 0 0 3em -2em;
+}
+
+.button {
+	margin: 1%;
+}
+
+#map_canvas {
+	position: absolute;
+	margin-left: 50%;
+	top: 15%;
+	right: 5%;
+}
+
+td {
+	text-align: left;
+}

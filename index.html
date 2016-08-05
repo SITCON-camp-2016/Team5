@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>我想騎C-bike!!!</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="main.css" />
+		<script src="jquery-3.1.0.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8bQ00jfR0StgmCd1M2xWddcI_o3EOfxY"
+  type="text/javascript"></script>
+	</head>
+	<body>
+		<header class="name">
+			<h1>
+				我想騎C-bike!!!
+			</h1>
+		</header>
+		<div class="input">
+			選擇車站: <form>
+				<select name="all">
+				<option value="R3">紅線-小港</option>
+				<option value="R4">紅線-高雄國際機場</option>
+				<option value="R5">紅線-草衙</option>
+				<option value="R6">紅線-凱旋</option>
+				<option value="R7">紅線-獅甲</option>
+				<option value="R8">紅線-三多高中</option>
+				<option value="R9">紅線-中央公園</option>
+				<option value="R10">交會站-美麗島站</option>
+				<option value="R11">紅線-高雄車站</option>
+				<option value="R12">紅線-後驛</option>
+				<option value="R13">紅線-凹子底</option>
+				<option value="R14">紅線-巨蛋</option>
+				<option value="R15">紅線-生態園區</option>
+				<option value="R16">紅線-左營</option>
+				<option value="R17">紅線-世運</option>
+				<option value="R18">紅線-油廠國小</option>
+				<option value="R19">紅線-楠梓加工區</option>
+				<option value="R20">紅線-後勁</option>
+				<option value="R21">紅線-都會公園</option>
+				<option value="R22">紅線-青埔</option>
+				<option value="R23">紅線-橋頭糖廠</option>
+				<option value="R24">紅線-橋頭火車站</option>
+				<option value="R25">紅線-南岡山</option>
+				<option value="O1">橘線-大寮</option>
+				<option value="O2">橘線-鳳山高中</option>
+				<option value="O3">橘線-大東</option>
+				<option value="O4">橘線-鳳山</option>
+				<option value="O5">橘線-鳳山西站</option>
+				<option value="O6">橘線-衛武營</option>
+				<option value="O7">橘線-技擊館</option>
+				<option value="O8">橘線-五塊厝</option>
+				<option value="O9">橘線-文化中心</option>
+				<option value="O10">橘線-信義國小</option>
+				<option value="O11">橘線-市議會</option>
+				<option value="O12">橘線-鹽埕埔</option>
+				<option value="O13">橘線-西子灣</option>
+				</select>
+		</div>
+				<p>
+					<div class="input">
+						直線距離: <input type="number" name="fname"/>
+					</div>
+				</p>
+				<!-- 標準按鈕 -->
+				<button type="button" class="btn btn-default button">確定</button>
+		</form>
+		<div class="input">
+			<table style="border-top:3px #FFD382 solid;border-bottom:3px #82FFFF solid;" cellpadding="10">
+				<tr>
+					<th>名稱</th>
+					<th>數量</th>
+					<th>空位</th>
+				</tr>
+			</table>
+			<table cellpadding="5">
+				<tr>
+					<td>三多站</td>
+					<td>17</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>三多站(2)</td>
+					<td>3</td>
+					<td>9</td>
+				</tr>
+				<tr>
+					<td>中央公園站-01</td>
+					<td>14</td>
+					<td>18</td>
+				</tr>
+				<tr>
+					<td>中央公園站-02</td>
+					<td>17</td>
+					<td>11</td>
+				</tr>
+			</table>
+		<iframe id="map_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6753.909033208686!2d120.29745974440885!3d22.63161068678371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd1c7e793a44f0a3!2z5o236YGL576O6bqX5bO256uZ!5e0!3m2!1szh-TW!2stw!4v1470359572486" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<footer id="footer">
+			<p class="copyright">&copy; C-bike. Design: <a href="#">五小</a>.</p>
+		</footer>
+		</div>
+		<script src="main.js"></script>	
+		<script type="text/javascript" src="index.init.js"></script>
+	</body>
+</html>
+
+
